@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Litros de Acuario Rectangular</title>
+    <link rel="stylesheet" href="style/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark rounded">
+            <img src="img/descarga.jpeg" alt="" class="rounded-circle" width="75">
+            <div class="container-fluid">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="rectangular.html">Rectangular/Cuadrado</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="cilindrico.html">Cilíndrico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="semicir.html">Semicircular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tripano.html">Triangulo Panoràmico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recpano.html">Rectangulo Panoràmico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="triangular.html">Triangular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="esfe.html">Esferico</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>Calculadora de Litros de Pecera Cilíndrica</h1>
+                    <form id="pecera cilindrico">
+                        <div class="form-group">
+                            <label>Radio (cm):</label>
+                            <input type="number" class="form-control" id="radio" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Alto (cm):</label>
+                            <input type="number" class="form-control" id="alto" required>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Calcular</button>
+                    </form>
+                </div>
+                <div class="col-md-5 mt-5">
+
+                    <img src="img/cili.png" alt="Rectangular" class="src rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="foot">
+        <footer class="text-center">
+            <a class="up-arrow" href="index.html" data-toggle="tooltip" title="Ir hacia arriba" id="back-to-top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+                <p>Página hecha por Luis Perez</p>
+            </a>
+            <br><br>
+        </footer>
+    </section>
+
+    <script src="cili.js"></script>
+</body>
+
+</html>
